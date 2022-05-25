@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lato',sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.cus__testimonial{
+    display: flex;
+    width: 50vw;
+    gap: .3rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+
+}
+.txt__right{
+    text-align: right;
+    width: 50%;
+}
+.txt-left{
+    width: 50%;
+}
+article{
+    padding-right: 6rem;
+    font-size: 1.2rem;
+}
+h2{
+    color: orangered;
+    font-size: 2.2rem;
+   
+}
+.u-block{
+    display: block;
+}
+aside{
+    font-size: 1rem;
+    letter-spacing: 1.3px;
+    margin-bottom: .5rem;
+}
