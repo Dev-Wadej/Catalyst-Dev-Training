@@ -45,3 +45,27 @@ aside{
     letter-spacing: 1.3px;
     margin-bottom: .5rem;
 }
+@media (max-width: 600px) {
+    body{
+      
+    }
+    .cus__testimonial{
+        flex-direction: column;
+        width: 95vw;
+        padding-bottom: 10px;
+    }
+    .txt__right,.txt-left{
+        text-align: left;
+        width: 100%;
+    }
+    article{
+        padding: 0;
+        font-size: 1rem;
+    }
+    .cus__testimonial+ section{
+        flex-direction: column-reverse;
+    }
+
+
+
+}

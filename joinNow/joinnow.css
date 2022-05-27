@@ -57,3 +57,9 @@ button{
     padding: .5rem 1.5rem;
     border-radius: .5rem;
 }
+@media (max-width: 600px) {
+form{
+    font-size: 14px;
+    width: 90%;
+}
+}
